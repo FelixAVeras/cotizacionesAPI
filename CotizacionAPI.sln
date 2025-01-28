@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35706.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotizacionAPI", "CotizacionAPI\CotizacionAPI.csproj", "{64B48624-BDDD-4E80-B6E5-5CAAC24409BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64B48624-BDDD-4E80-B6E5-5CAAC24409BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B48624-BDDD-4E80-B6E5-5CAAC24409BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B48624-BDDD-4E80-B6E5-5CAAC24409BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B48624-BDDD-4E80-B6E5-5CAAC24409BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00F73BCA-1F42-457F-8CC8-6EED5B14D687}
+	EndGlobalSection
+EndGlobal
