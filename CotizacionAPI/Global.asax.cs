@@ -1,3 +1,4 @@
+using CotizacionAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,11 @@ namespace CotizacionAPI
         {
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
+
+            // Insertar productos predeterminados al iniciar la aplicación
+            QuotationDB quotationDB = new QuotationDB();
+            quotationDB.InsertDefaultProducts();
+
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);

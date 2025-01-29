@@ -11,6 +11,6 @@ namespace CotizacionAPI.Models
         public string ClientName { get; set; }
         public string ClientPhone { get; set; }
         public DateTime DateCreated { get; set; }
-        public List<QuotationDetail> Details { get; set; }
+        public List<QuotationDetail> Products { get; set; }
     }
 }
